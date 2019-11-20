@@ -56,19 +56,17 @@
 }
 
 @media (min-width: 767px) {
-
     .flexone {
         display: flex;
         padding-top: 90px;
         width: 709px;
-        margin-bottom: 85px;
     }
 
     .first-container {
         width: 325px;
         padding-left: 52px;
+        margin-bottom: 100px;
     }
-
     .second-container {
         width: 310px;
         padding-left: 27px;
@@ -81,13 +79,12 @@
 @media (min-width: 1200px) {
     .flexone{
         width: 1071px;
-        margin-bottom: 100px ;
     }
-
     .first-container {
         width: 473px;
         margin: 0;
         padding-left: 77px;
+        margin-bottom: 100px;
     }
 
     .second-container {
