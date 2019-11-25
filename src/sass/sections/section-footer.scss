@@ -39,11 +39,16 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 75px;
+ 
 
-  &:hover,
-  &:focus {
+  &:hover {
     outline: none;
     cursor: pointer;
+    animation: shake 0.1s ease-in-out 0.1s infinite alternate;
+  }
+
+  &:focus {
+    outline: none;
   }
 }
 
@@ -71,3 +76,15 @@
     min-width: 700px;
   }
 }
+
+@keyframes shake {
+  from {
+    transform: rotate(4deg);
+  }
+
+  to {
+    transform-origin: center center;
+    transform: rotate(-4deg);
+  }
+}
+
