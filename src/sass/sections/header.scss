@@ -10,12 +10,15 @@
     padding-top: 32px;
     padding-bottom: 170px;
 }
-
+.container{
+    margin: 0 auto;
+}
 .logo { 
     width: 110px;
     height: 30px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 45px;
 
 
 }
@@ -25,16 +28,16 @@
     line-height: 50px;
     text-align: center;
     color:#ffffff;
-    margin-top: 40px;
+    width: 250px;
+    margin: 0 auto;
 
 }
-.header__subtitle {
+.header__title span {
     @extend %acrom-extrabold;
     margin: 0 auto;
     font-size: 30px;
     line-height: 40px;
     text-transform: uppercase;
-    text-align: center;
     color:#ffffff;
     margin-top: 24px;
     width: 224px;
@@ -42,7 +45,7 @@
 
 }
 
-.header__subtitle-1 {
+.header__subtitle {
     text-align: center;
     @extend %Acrom-Regular;
     font-size: 14px;
@@ -68,14 +71,16 @@
     }
     .header__title {
         font-size: 36px;
+        width: 544px;
+
     }
-    .header__subtitle {
+    .header__title span{
         font-size: 46px;
         line-height: 60px;
-        width: 600px;
+        display: block;
+        width: 100%;
     }
-    
-    .header__subtitle-1 {
+    .header__subtitle {
         margin-top: 30px;
         width: 300px;
     }

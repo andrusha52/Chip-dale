@@ -2,8 +2,8 @@
     margin: 0 auto;
 }
 .section-offer {
-    margin-top: 100px;
-    padding-right: 54px;
+margin: 0 auto;
+padding-top: 70px;
    
 }
 
@@ -57,7 +57,8 @@ h2 {
 
 @media (min-width: 768px) {
     .section-offer {
-        padding-right: 0
+        padding-right: 0 ;
+        padding-top: 83px;
     }
 
     .section-offer__list{
@@ -77,6 +78,9 @@ h2 {
 
 }
 @media (min-width: 1200px) {
+    .section-offer {
+        padding-top: 113px;
+    }
 .section-offer__list--item {
     width: 280px;
 }
