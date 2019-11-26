@@ -26,8 +26,25 @@
     text-transform: uppercase;
     cursor: pointer;
     box-shadow: 0px 8px 43px 0px rgba(225, 107, 29, 0.59);
+
+    &:hover {
+        animation: shake 0.1s ease-in-out 0.1s infinite alternate;
+    }
+
+    &:focus {
+        outline: none;
+    }
 }
 
+@keyframes shake {
+    from {
+      transform: rotate(4deg);
+    }
+    to {
+      transform-origin: center center;
+      transform: rotate(-4deg);
+    }
+  }
 
 @media (min-width: 768px) { 
     .section-video{
@@ -40,4 +57,3 @@
         height: 402px;
     }
 }
-
